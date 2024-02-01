@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from '@/public/SBV LOGO Black.png';
+import logo from '@/public/sbv-logo.png';
 import Card from "@/components/Card";
 
 import VKLogo from "@/icons/vk.svg";
