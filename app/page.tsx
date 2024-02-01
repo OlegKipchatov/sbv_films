@@ -9,7 +9,7 @@ import YouTubeLogo from "@/icons/youtube.svg";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-white">
+    <main className="flex min-h-screen flex-col items-center justify-between p-12 sm:p-24 bg-white">
       <div className="flex flex-col space-y-8">
         <div className="">
           <h1 className="flex justify-center mb-2 text-4xl font-bold tracking-tight text-gray-900">SBV Films</h1>
