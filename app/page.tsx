@@ -13,7 +13,7 @@ export default function Home() {
       <div className="flex flex-col space-y-8">
         <div className="">
           <h1 className="flex justify-center mb-2 text-4xl font-bold tracking-tight text-gray-900">SBV Films</h1>
-          <h2 className="mb-2 text-2xl tracking-tight text-gray-900">Владислав Стрибижев</h2>
+          <h2 className="flex justify-center mb-2 text-2xl tracking-tight text-gray-900">Владислав Стрибижев</h2>
           <span className="flex justify-center mb-2 text-sm tracking-tight text-gray-700">Фотограф / Видеограф</span>
         </div>
 
