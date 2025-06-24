@@ -11,9 +11,9 @@ export default function Home() {
     <main className="flex min-h-screen overflow-none sm:overflow-none flex-col items-center justify-start sm:justify-betwen p-12 sm:p-24 bg-white">
       <div className="flex flex-col space-y-4 sm:space-y-6">
         <div>
-          <h1 className="flex justify-center mb-2 text-4xl font-bold tracking-tight text-gray-900">SBV FILMS | VLAD SBV</h1>
+          <h1 className="flex justify-center mb-2 text-3xl sm:text-4xl font-bold tracking-tight text-gray-900 text-center">SBV FILMS | VLAD SBV</h1>
           <h2 className="flex justify-center mb-2 text-2xl tracking-tight text-gray-900">Владислав Стрибижев</h2>
-          <span className="flex justify-center mb-2 text-sm tracking-tight text-gray-700">Видеосъёмка | Видеомонтаж | Фотосъёмка | Блог о кино и играх</span>
+          <span className="flex justify-center mb-2 text-sm tracking-tight text-gray-700 text-center">Видеосъёмка | Видеомонтаж | Фотосъёмка | Блог о кино и играх</span>
         </div>
 
         <div>     
