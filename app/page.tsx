@@ -41,7 +41,7 @@ export default function Home() {
 
         <Card link="https://vk.com/sbv_films" title="ВКонтакте | VLAD SBV" svg={VKLogo}></Card>
 
-        <Card link="https://www.youtube.com/channel/UC5SBaNTS08kxHiFuC0mDqZg" title="YouTube | VLAD SBV" svg={YouTubeLogo}></Card>
+        <Card link="https://www.youtube.com/@vlad_sbv" title="YouTube | VLAD SBV" svg={YouTubeLogo}></Card>
 
         <Card link="https://www.twitch.tv/vladsbv" title="Twitch | VLAD SBV" svg={TwitchLogo}></Card>
       </div>
