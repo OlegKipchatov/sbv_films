@@ -3,26 +3,26 @@ import logo from '@/public/sbv-logo.png';
 import Card from "@/components/Card";
 
 import VKLogo from "@/icons/vk.svg";
-import InstagramLogo from "@/icons/instagram.svg";
-import WfolioLogo from "@/icons/wfolio.svg";
 import YouTubeLogo from "@/icons/youtube.svg";
+import TwitchLogo from "@/icons/twitch.svg";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen overflow-none sm:overflow-none flex-col items-center justify-start sm:justify-betwen p-12 sm:p-24 bg-white">
-      <div className="flex flex-col space-y-4 sm:space-y-8">
+      <div className="flex flex-col space-y-4 sm:space-y-6">
         <div>
-          <h1 className="flex justify-center mb-2 text-4xl font-bold tracking-tight text-gray-900">SBV FILMS</h1>
+          <h1 className="flex justify-center mb-2 text-4xl font-bold tracking-tight text-gray-900">SBV FILMS | VLAD SBV</h1>
           <h2 className="flex justify-center mb-2 text-2xl tracking-tight text-gray-900">Владислав Стрибижев</h2>
-          <span className="flex justify-center mb-2 text-sm tracking-tight text-gray-700">Фотограф / Видеограф</span>
+          <span className="flex justify-center mb-2 text-sm tracking-tight text-gray-700">Видеосъёмка | Видеомонтаж | Фотосъёмка | Блог о кино и играх</span>
         </div>
 
-        <div>
-          <a href="tel:+79622781788" className="flex justify-center space-x-4 mb-2 text-xl tracking-tight text-gray-900">
-            <svg xmlns="http://www.w3.org/2000/svg" height="28" width="24" viewBox="0 0 202.592 202.592">
-              <path className="fill-black" d="M198.048,160.105l-31.286-31.29c-6.231-6.206-16.552-6.016-23.001,0.433l-15.761,15.761    c-0.995-0.551-2.026-1.124-3.11-1.732c-9.953-5.515-23.577-13.074-37.914-27.421C72.599,101.48,65.03,87.834,59.5,77.874    c-0.587-1.056-1.145-2.072-1.696-3.038l10.579-10.565l5.2-5.207c6.46-6.46,6.639-16.778,0.419-23.001L42.715,4.769    c-6.216-6.216-16.541-6.027-23.001,0.433l-8.818,8.868l0.243,0.24c-2.956,3.772-5.429,8.124-7.265,12.816    c-1.696,4.466-2.752,8.729-3.235,12.998c-4.13,34.25,11.52,65.55,53.994,108.028c58.711,58.707,106.027,54.273,108.067,54.055    c4.449-0.53,8.707-1.593,13.038-3.275c4.652-1.818,9.001-4.284,12.769-7.233l0.193,0.168l8.933-8.747    C204.079,176.661,204.265,166.343,198.048,160.105z M190.683,176.164l-3.937,3.93l-1.568,1.507    c-2.469,2.387-6.743,5.74-12.984,8.181c-3.543,1.364-7.036,2.24-10.59,2.663c-0.447,0.043-44.95,3.84-100.029-51.235    C14.743,94.38,7.238,67.395,10.384,41.259c0.394-3.464,1.263-6.95,2.652-10.593c2.462-6.277,5.812-10.547,8.181-13.02l5.443-5.497    c2.623-2.63,6.714-2.831,9.112-0.433l31.286,31.286c2.394,2.401,2.205,6.492-0.422,9.13L45.507,73.24l1.95,3.282    c1.084,1.829,2.23,3.879,3.454,6.106c5.812,10.482,13.764,24.83,29.121,40.173c15.317,15.325,29.644,23.27,40.094,29.067    c2.258,1.249,4.32,2.398,6.17,3.5l3.289,1.95l21.115-21.122c2.634-2.623,6.739-2.817,9.137-0.426l31.272,31.279    C193.5,169.446,193.31,173.537,190.683,176.164z"/>
+        <div>     
+          <a href="https://t.me/sbv_films" className="flex justify-center space-x-4 mb-2 text-xl tracking-tight text-gray-900">
+            <svg height="28" width="24" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path stroke="#000000" strokeWidth={12} d="M23.073 88.132s65.458-26.782 88.16-36.212c8.702-3.772 38.215-15.843 38.215-15.843s13.621-5.28 12.486 7.544c-.379 5.281-3.406 23.764-6.433 43.756-4.54 28.291-9.459 59.221-9.459 59.221s-.756 8.676-7.188 10.185c-6.433 1.509-17.027-5.281-18.919-6.79-1.513-1.132-28.377-18.106-38.214-26.404-2.649-2.263-5.676-6.79.378-12.071 13.621-12.447 29.891-27.913 39.728-37.72 4.54-4.527 9.081-15.089-9.837-2.264-26.864 18.483-53.35 35.835-53.35 35.835s-6.053 3.772-17.404.377c-11.351-3.395-24.594-7.921-24.594-7.921s-9.08-5.659 6.433-11.693Z" />
             </svg>
-            <span>+7 (962) 278 17 88</span>
+
+            <span>@sbv_films</span>
           </a>
 
           <a href="mailto:sbv@sbv-films.ru" className="flex justify-center space-x-4 mb-2 text-xl tracking-tight text-gray-700">
@@ -31,19 +31,23 @@ export default function Home() {
             </svg>
             <span>sbv@sbv-films.ru</span>
           </a>
-        </div>        
+        </div>
 
-        <Card link="https://sbvfilms.wfolio.pro" title="wfolio" svg={WfolioLogo} primary></Card>
+        <Card link="./cv.pdf" title="РЕЗЮМЕ | ПОРТФОЛИО"></Card>
 
-        <Card link="https://vk.com/sbv__films" title="ВКонтакте" svg={VKLogo}></Card>
+        <Card link="https://vk.com/sbv__films" title="ВКонтакте | SBV FILMS" svg={VKLogo}></Card>
 
-        <Card link="https://www.instagram.com/sbv_films/" title="Instagram" svg={InstagramLogo}></Card>
+        <Card link="https://www.youtube.com/channel/UC5SBaNTS08kxHiFuC0mDqZg" title="YouTube | SBV FILMS" svg={YouTubeLogo}></Card>
 
-        <Card link="https://www.youtube.com/channel/UC5SBaNTS08kxHiFuC0mDqZg" title="YouTube" svg={YouTubeLogo}></Card>
+        <Card link="https://vk.com/sbv_films" title="ВКонтакте | VLAD SBV" svg={VKLogo}></Card>
+
+        <Card link="https://www.youtube.com/channel/UC5SBaNTS08kxHiFuC0mDqZg" title="YouTube | VLAD SBV" svg={YouTubeLogo}></Card>
+
+        <Card link="https://www.twitch.tv/vladsbv" title="Twitch | VLAD SBV" svg={TwitchLogo}></Card>
       </div>
 
-      <footer className="flex flex-col justify-center mt-4 sm:mt-0">
-        <Image src={logo} alt="SBV Logo" className="w-36 sm:w-52"></Image>
+      <footer className="flex gap-4 justify-center items-center mt-4 sm:mt-0">
+        <Image src={logo} alt="SBV FILMS" className="w-36 sm:w-52"></Image>
       </footer>
     </main>
   );
