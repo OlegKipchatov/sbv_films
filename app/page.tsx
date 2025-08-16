@@ -35,15 +35,11 @@ export default function Home() {
 
         <Card link="./cv.pdf" title="РЕЗЮМЕ | ПОРТФОЛИО"></Card>
 
-        <Card link="https://vk.com/sbv__films" title="ВКонтакте | SBV FILMS" svg={VKLogo}></Card>
+        <Card link="https://vk.com/vlad__sbv" title="ВКонтакте" svg={VKLogo}></Card>
 
-        <Card link="https://www.youtube.com/channel/UC5SBaNTS08kxHiFuC0mDqZg" title="YouTube | SBV FILMS" svg={YouTubeLogo}></Card>
+        <Card link="https://www.youtube.com/@vlad_sbv" title="YouTube" svg={YouTubeLogo}></Card>
 
-        <Card link="https://vk.com/sbv_films" title="ВКонтакте | VLAD SBV" svg={VKLogo}></Card>
-
-        <Card link="https://www.youtube.com/@vlad_sbv" title="YouTube | VLAD SBV" svg={YouTubeLogo}></Card>
-
-        <Card link="https://www.twitch.tv/vladsbv" title="Twitch | VLAD SBV" svg={TwitchLogo}></Card>
+        <Card link="https://www.twitch.tv/vladsbv" title="Twitch" svg={TwitchLogo}></Card>
       </div>
 
       <footer className="flex gap-4 justify-center items-center mt-4 sm:mt-0">
